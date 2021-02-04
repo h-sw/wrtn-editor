@@ -38,7 +38,7 @@ function App() {
       <Container>
         <div className={classes.titleContainer}>
           <Typography className={classes.title}>
-            Wrtn, WYSIWYG
+            Wrtn, Editor
           </Typography>
           <Typography className={classes.secondaryText}>
             created by seungwoo han
