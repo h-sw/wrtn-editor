@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '@material-ui/core/Container'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
-import EditorContainer from './containers/EditorContainer'
+import DemoContainer from './containers/DemoContainer'
 import Footer from './components/Footer'
 
 const useStyles = makeStyles(theme => ({
@@ -52,7 +52,7 @@ function App() {
             Demo
           </Typography>
         </div>
-        <EditorContainer />
+        <DemoContainer />
         <div className={classes.subTitleContainer}>
           <Typography className={classes.subTitle}>
             UI Reference

@@ -28,6 +28,10 @@ const useStyles = makeStyles(theme => ({
     minHeight   : 20,
     width       : '100%',
     color       : '#444',
+  },
+  editor : {
+    width:'100%',
+    minHeight: 100
   }
 }))
 
